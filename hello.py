@@ -15,6 +15,5 @@ def main(argv: list[str] | None = None) -> None:
     args = parse_args(argv)
     print(make_message(args.name))
 
-
 if __name__ == "__main__":
     main()
